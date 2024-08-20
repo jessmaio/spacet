@@ -64,8 +64,10 @@ const Crew = () => {
       <>
       <Menu></Menu>
       <section className='homepage crew'>
-        <h4><span className="bold fade">02</span> Meet your crew</h4>
-        <img src = {choice.img}/>
+        <h4 className='meet'><span className="bold fade">02</span> Meet your crew</h4>
+        <section className='imm'>
+          <img src = {choice.img}/>
+        </section>
         <hr/>
         <section className="navtab">
                 <ul>
@@ -79,13 +81,15 @@ const Crew = () => {
                     ))}
                 </ul>
         </section>
+        <section className='staff'>
         <Staff
             key = {choice.key}
             role = {choice.role}
             name = {choice.name}
             text = {choice.text}
-          ></Staff>
-      </section>
+        ></Staff>
+        </section>
+      </section>  
 
       </>
     );

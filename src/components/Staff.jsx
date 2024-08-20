@@ -5,7 +5,6 @@ const Staff = ({role, name, text}) =>{
             <h6>{role}</h6>
             <h1>{name}</h1>
             <p>{text}</p>
-
         </section>
         </>
     );

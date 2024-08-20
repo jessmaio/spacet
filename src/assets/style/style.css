@@ -67,7 +67,7 @@ body{
   width: 50%;
   height: 100%;
   row-gap: 2rem;
-  background: rgba(97, 97, 97, 0.04);
+  background: #9797973e;
   backdrop-filter: blur(81px);
   z-index: 2;
 }
@@ -277,6 +277,32 @@ hr {
   .tech img{
     width: 180%
   }
+  .homepage.crew{
+    margin-left: 7rem;
+    margin-right: 7rem;
+  }
+  .homepage.crew{
+    margin-left: 7rem;
+    margin-right: 7rem;
+  }
+  h4.meet{
+    position: relative;
+    left: -14rem;
+    top: -2rem;
+  }
+  .crew .staff{
+    margin-top: 1rem;
+    gap: 1rem;
+  }
+  .crew .imm{
+    order: 4;
+  }
+  .crew .navtab{
+    order: 3;
+  }
+  .crew hr {
+    display: none;
+  }
 
   .homepage.dest{
     margin-left: 7rem;
@@ -289,14 +315,20 @@ hr {
   }
   .col1 h5{
     position: relative;
-    left: -10rem;
+    left: -12rem;
     top: -2rem;
   }
-  h1{
+  h1 {
     font-size: 150px;
   }
   .planet h1{
     font-size: 80px;
+  }
+  .crew h1{
+    font-size: 45px;
+  }
+  .crew h6{
+    font-size: 28px;
   }
   h4, h5{
     font-size: 20px;
@@ -332,7 +364,7 @@ hr {
     margin-top: 10rem;
   }
 
-  .dest .col1, .crew{
+  .dest .col1,  .crew .col1, .crew .navtab.col1, .staff.col1{
     position: fixed;
     top: 10rem;
     left: 7rem;
@@ -342,7 +374,12 @@ hr {
     width: 50%;
   }
 
-  .dest .col2 {
+  .crew .col1, .navtab.col1, .staff.col1{
+    align-items: flex-start;
+    row-gap: 4rem;
+  }
+
+  .dest .col2, .crew .col2{
     position: fixed;
     top: 10rem;
     right: 3rem;
