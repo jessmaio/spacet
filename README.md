@@ -39,15 +39,19 @@ Space Tourism lets visitors explore destinations (Moon, Mars, Europa, Titan), me
 
 ### Desktop
 
-| Destination | Crew | Technology |
-| :---: | :---: | :---: |
-| ![Destination page on desktop](docs/screenshots/destination-desktop.png) | ![Crew page on desktop](docs/screenshots/crew-desktop.png) | ![Technology page on desktop](docs/screenshots/technology-desktop.png) |
+<img src="docs/screenshots/destination-desktop.png" alt="Destination page on desktop" width="100%">
+  
+<img src="docs/screenshots/crew-desktop.png" alt="Crew page on desktop" width="100%">
+  
+<img src="docs/screenshots/technology-desktop.png" alt="Technology page on desktop" width="100%">
+  
 
 ### Mobile
 
-| Home | Menu | Destination | Technology |
-| :---: | :---: | :---: | :---: |
-| ![Home page on mobile](docs/screenshots/home-mobile.png) | ![Open menu on mobile](docs/screenshots/menu-mobile.png) | ![Destination page on mobile](docs/screenshots/destination-mobile.png) | ![Technology page on mobile](docs/screenshots/technology-mobile.png) |
+![Home page on mobile](docs/screenshots/home-mobile.png)       ![Open menu on mobile](docs/screenshots/menu-mobile.png) 
+  
+![Destination page on mobile](docs/screenshots/destination-mobile.png)       ![Technology page on mobile](docs/screenshots/technology-mobile.png)
+
 
 ## Pages
 
