@@ -48,9 +48,12 @@ Space Tourism lets visitors explore destinations (Moon, Mars, Europa, Titan), me
 
 ### Mobile
 
+| Home | Menu |
 | :---: | :---: |
 | ![Home page on mobile](docs/screenshots/home-mobile.png) | ![Open menu on mobile](docs/screenshots/menu-mobile.png) |
+| **Destination** | **Technology** |
 | ![Destination page on mobile](docs/screenshots/destination-mobile.png) | ![Technology page on mobile](docs/screenshots/technology-mobile.png) |
+
 
 
 
