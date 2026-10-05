@@ -2,6 +2,8 @@ import { Link } from "react-router-dom"
 import { useState } from "react";
 import { useEffect } from 'react';
 import logo from './../assets/img/shared/logo.svg'
+import iconClose from './../assets/img/shared/icon-close.svg'
+import iconHamburger from './../assets/img/shared/icon-hamburger.svg'
 
 const Menu = () => {
         const [open, setOpen] = useState(false);
@@ -37,11 +39,7 @@ const Menu = () => {
         {width < 600 ?  (
                 <nav className="burger-menu">
                 <div className="burger-icon" onClick={toggleMenu}>
-                        {open ? (
-                                <img src="./src/assets/img/shared/icon-close.svg"/>
-                        ) : (
-                                <img src='./src/assets/img/shared/icon-hamburger.svg'/> 
-                        )}
+                        <img src={open ? iconClose : iconHamburger} alt={open ? "Closed menu" : "Menu"} />
                 </div>
                 {open && (
                         <ul className="voices">
